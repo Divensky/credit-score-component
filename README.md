@@ -1,7 +1,14 @@
-# Vue 3 + Vite
+# Credit Score Component
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This Credit Score component is created based on [design](https://excalidraw.com/#room=4425ea03b874cbef6114,tXqmo7E41kXBKd9iypblRw) and has the following features:
 
-## Recommended IDE Setup
+- Obtains a credit score for the current user through a mock API.
+- Displays the credit score as a number and as a circle on the scale.
+- Lets the user select their target timeframe to improve the credit score.
+- Based on selected timeframe and current credit score, displays the recommendations.
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+[Demo](/CreditScoreDemo.jpg)
+
+## Run in dev mode
+
+- `npm run dev`
