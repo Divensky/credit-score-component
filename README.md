@@ -7,7 +7,7 @@ This Credit Score component is created based on [design](https://excalidraw.com/
 - Lets the user select their target timeframe to improve the credit score.
 - Based on selected timeframe and current credit score, displays the recommendations.
 
-[Demo](/CreditScoreDemo.jpg)
+![Demo]([/CreditScoreDemo.jpg](https://github.com/Divensky/credit-score-component/blob/main/public/CreditScoreDemo.jpg))
 
 ## Run in dev mode
 
