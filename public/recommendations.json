@@ -1,0 +1,55 @@
+{
+  "recommendations": {
+    "18_months": {
+      "poor": [
+        "Consistently pay all bills on time.",
+        "Reduce outstanding debt, focusing on high-interest balances.",
+        "Avoid applying for new credit."
+      ],
+      "medium": [
+        "Pay off any collections or past-due accounts.",
+        "Maintain low credit card balances (below 30% utilization).",
+        "Diversify credit mix (e.g., add a secured credit card or small loan)."
+      ],
+      "fair": [
+        "Continue to pay all bills on time.",
+        "Increase credit limits while keeping utilization low.",
+        "Monitor credit report for errors and dispute inaccuracies."
+      ]
+    },
+    "12_months": {
+      "poor": [
+        "Establish a budget and stick to it to avoid missed payments.",
+        "Consider credit counseling for debt management.",
+        "Use a secured credit card responsibly to build credit history."
+      ],
+      "medium": [
+        "Set up automatic payments to ensure timely bill payment.",
+        "Avoid closing old credit accounts.",
+        "Pay down large balances to improve credit utilization ratio."
+      ],
+      "fair": [
+        "Keep credit card balances low and pay more than the minimum due.",
+        "Avoid taking on new debt unless absolutely necessary.",
+        "Check credit report regularly and correct any mistakes."
+      ]
+    },
+    "6_months": {
+      "poor": [
+        "Focus on making at least the minimum payment on all debts.",
+        "Avoid large purchases that require new credit.",
+        "Consider a credit-builder loan."
+      ],
+      "medium": [
+        "Pay off smaller debts to quickly reduce the number of accounts with balances.",
+        "Ensure no late payments; even one can have a significant impact.",
+        "Review credit report for any inaccuracies and address them."
+      ],
+      "fair": [
+        "Keep old accounts open to maintain a long credit history.",
+        "Continue to make all payments on time.",
+        "Use credit monitoring tools to stay informed about changes to your score."
+      ]
+    }
+  }
+}
