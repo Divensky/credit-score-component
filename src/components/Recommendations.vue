@@ -26,11 +26,15 @@ const goBack = () => (model.value = false);
 <style scoped>
 .recs {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: aliceblue;
+  top: 50%;
+  left: 48%;
+  transform: translateY(-50%);
+  width: fit-content;
+  height: fit-content;
+  background-color: beige;
+  border: 1px solid gray;
+  border-radius: 12px;
+  padding-bottom: 12px;
 }
 
 .recs__list {
@@ -38,7 +42,6 @@ const goBack = () => (model.value = false);
   top: 20%;
   left: 50%;
   transform: translateX(-50%);
-  border: 1px solid gray;
   border-radius: 12px;
   width: max-content;
   text-align: left;
