@@ -36,18 +36,18 @@ const submit = async () => {
 </script>
 <template>
   <div class="target">
-    <div>Target Timeframe</div>
+    <h3>Target Timeframe</h3>
     <p>
       Within how many months would you like to reach your target credit score?
     </p>
     <form action="" method="get" @submit.prevent="submit">
-      <select @change="selectOption">
+      <select @change="selectOption" class="target__select">
         <option value="18">18 months</option>
         <option value="12">12 months</option>
         <option value="6">6 months</option>
       </select>
       <div>
-        <button>Submit</button>
+        <button class="target__button">Submit</button>
       </div>
     </form>
   </div>
@@ -57,3 +57,20 @@ const submit = async () => {
     :recs="selectedRecommendations"
   />
 </template>
+<style scoped>
+.target {
+  max-width: 500px;
+}
+
+.target__select {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border-color: blue;
+}
+
+.target__button {
+  margin-top: 8px;
+  background-color: blue;
+  color: white;
+}
+</style>
