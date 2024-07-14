@@ -10,7 +10,7 @@ export function mockScoreApi(token) {
 
 export async function mockRecommendationsApi() {
   try {
-    const response = await fetch('/recommendations.json');
+    const response = await fetch(`${import.meta.env.BASE_URL}recommendations.json`);
     const json = await response.json();
     return json.recommendations;
   } catch (e) {
